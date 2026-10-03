@@ -1,0 +1,404 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ТВОЁ ИМЯ — Videographer</title>
+
+    <meta
+        name="description"
+        content="Твоё имя — видеограф. Съёмка Reels, рекламы, событий и другого контента."
+    >
+
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<header class="header">
+
+    <a href="#" class="logo">
+        ТВОЁ ИМЯ
+    </a>
+
+    <nav class="nav">
+        <a href="#works">Работы</a>
+        <a href="#about">Обо мне</a>
+        <a href="#contact">Контакты</a>
+    </nav>
+
+</header>
+
+
+<main>
+
+    <!-- HERO -->
+
+    <section class="hero">
+
+        <div class="hero-text">
+
+            <p class="eyebrow">
+                CREATOR / VIDEOGRAPHER
+            </p>
+
+            <h1>
+                Снимаю видео,<br>
+                которые хочется смотреть.
+            </h1>
+
+            <p class="hero-description">
+                Создаю видео для людей, брендов и бизнеса —
+                от идеи и съёмки до готового ролика.
+            </p>
+
+            <a href="#contact" class="button">
+                Обсудить проект
+            </a>
+
+        </div>
+
+        <div class="hero-image">
+            <img src="images/hero.jpg" alt="Твоё фото">
+        </div>
+
+    </section>
+
+
+    <!-- WORKS -->
+
+    <section id="works" class="section">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                PORTFOLIO
+            </p>
+
+            <h2>
+                Мои работы
+            </h2>
+
+        </div>
+
+
+        <div class="works-grid">
+
+            <a class="work work-large" href="#">
+
+                <img
+                    src="images/work-1.jpg"
+                    alt="Работа 1"
+                >
+
+                <div class="work-info">
+                    <h3>Для брендов</h3>
+                    <p>Reels · реклама · контент</p>
+                </div>
+
+            </a>
+
+
+            <a class="work" href="#">
+
+                <img
+                    src="images/work-2.jpg"
+                    alt="Работа 2"
+                >
+
+                <div class="work-info">
+                    <h3>События</h3>
+                    <p>Съёмка · монтаж</p>
+                </div>
+
+            </a>
+
+
+            <a class="work" href="#">
+
+                <img
+                    src="images/work-3.jpg"
+                    alt="Работа 3"
+                >
+
+                <div class="work-info">
+                    <h3>Личные истории</h3>
+                    <p>Видео · storytelling</p>
+                </div>
+
+            </a>
+
+        </div>
+
+    </section>
+
+
+    <!-- SERVICES -->
+
+    <section class="section services">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                SERVICES
+            </p>
+
+            <h2>
+                Что я снимаю
+            </h2>
+
+        </div>
+
+
+        <div class="services-grid">
+
+            <div class="service">
+                <span>01</span>
+                <h3>Reels</h3>
+                <p>
+                    Вертикальные ролики для социальных сетей.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <span>02</span>
+                <h3>Реклама</h3>
+                <p>
+                    Видео для брендов, компаний и продуктов.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <span>03</span>
+                <h3>События</h3>
+                <p>
+                    Концерты, свадьбы, корпоративы и мероприятия.
+                </p>
+            </div>
+
+
+            <div class="service">
+                <span>04</span>
+                <h3>Личные проекты</h3>
+                <p>
+                    Креативные и имиджевые видео.
+                </p>
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- ABOUT -->
+
+    <section id="about" class="section about">
+
+        <div class="about-image">
+
+            <img
+                src="images/about.jpg"
+                alt="Обо мне"
+            >
+
+        </div>
+
+
+        <div class="about-text">
+
+            <p class="eyebrow">
+                ABOUT ME
+            </p>
+
+            <h2>
+                Кто я
+            </h2>
+
+            <p>
+                Меня зовут ТВОЁ ИМЯ.
+                Я занимаюсь видеосъёмкой и монтажом.
+            </p>
+
+            <p>
+                Помогаю людям и брендам превращать идеи
+                в видео, которые выглядят современно
+                и передают нужное настроение.
+            </p>
+
+            <p>
+                Работаю над проектом от идеи до
+                финального монтажа.
+            </p>
+
+        </div>
+
+    </section>
+
+
+    <!-- REVIEWS -->
+
+    <section class="section reviews">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                REVIEWS
+            </p>
+
+            <h2>
+                Что говорят клиенты
+            </h2>
+
+        </div>
+
+
+        <div class="reviews-grid">
+
+            <div class="review">
+                <p>
+                    «Здесь будет настоящий отзыв
+                    твоего клиента.»
+                </p>
+
+                <strong>
+                    Имя клиента
+                </strong>
+
+            </div>
+
+
+            <div class="review">
+                <p>
+                    «Ещё один настоящий отзыв
+                    о твоей работе.»
+                </p>
+
+                <strong>
+                    Имя клиента
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- PRICES -->
+
+    <section class="section prices">
+
+        <div class="section-title">
+
+            <p class="eyebrow">
+                PRICES
+            </p>
+
+            <h2>
+                Ориентир по бюджету
+            </h2>
+
+        </div>
+
+
+        <div class="prices-grid">
+
+            <div class="price-card">
+
+                <h3>Reels</h3>
+
+                <p>
+                    Съёмка и монтаж вертикального ролика.
+                </p>
+
+                <strong>
+                    от 5 000 ₽
+                </strong>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <h3>Съёмка</h3>
+
+                <p>
+                    Съёмка проекта или мероприятия.
+                </p>
+
+                <strong>
+                    от 15 000 ₽
+                </strong>
+
+            </div>
+
+
+            <div class="price-card">
+
+                <h3>Полный проект</h3>
+
+                <p>
+                    Идея, съёмка, монтаж и готовый ролик.
+                </p>
+
+                <strong>
+                    от 30 000 ₽
+                </strong>
+
+            </div>
+
+        </div>
+
+    </section>
+
+
+    <!-- CONTACT -->
+
+    <section id="contact" class="contact">
+
+        <p class="eyebrow">
+            CONTACT
+        </p>
+
+        <h2>
+            Есть идея?
+        </h2>
+
+        <p>
+            Расскажи, что нужно снять,
+            и я отвечу по стоимости и срокам.
+        </p>
+
+        <a
+            href="https://t.me/ТВОЙ_USERNAME"
+            class="button button-light"
+        >
+            Написать в Telegram
+        </a>
+
+    </section>
+
+</main>
+
+
+<footer>
+
+    <p>
+        © 2026 ТВОЁ ИМЯ
+    </p>
+
+    <a href="#">
+        Наверх ↑
+    </a>
+
+</footer>
+
+
+<script src="script.js"></script>
+
+</body>
+</html>
